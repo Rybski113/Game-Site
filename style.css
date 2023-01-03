@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: black;
 }
 body {
     margin: 0;
@@ -11,7 +12,10 @@ body {
 }
 .nav-item {
     margin-right: 2rem;
-    color: black;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
 }
 .nav-item:first-child {
    margin-right: auto;
@@ -36,11 +40,12 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 40px; 
   }
 .box {
     background-color: red;
     height: 150px;
     width: 200px;
+    
 }
 
