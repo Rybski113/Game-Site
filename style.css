@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item {
+    margin-right: 2rem;
+    color: black;
+}
+.nav-item:first-child {
+   margin-right: auto;
+   margin-left: 2rem;
+}
