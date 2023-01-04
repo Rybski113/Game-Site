@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,13 +11,30 @@ body {
   background: url(img/image1.jpg) no-repeat center center fixed; 
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 1000px;
 }
 
-.nav, .leftNavbar, .rightNavbar {
+.nav {
+    justify-content: space-between;
     display: flex;
+    justify-items: center;
+    background-color: black;
+    height: 45px;
+    border-bottom: 1px solid grey;
 }
 
-.leftNavbar {
-    flex
+.leftNavbar, .rightNavbar {
+    display: flex; 
 }
+
+.nav li {
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
